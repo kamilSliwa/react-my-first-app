@@ -1,0 +1,164 @@
+.header {
+  height: 200px;
+  width: 100%;
+
+  background-color: rgb(80, 57, 26);
+  background-position: bottom;
+  background-size: cover;
+  background-image: url("https://www.gostudy.com.au/wp-content/uploads/2012/11/football-pexels-patrick-case-3781312-1440x960.jpg.webp");
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.menu {
+
+  width: 100%;
+  background-color: rgb(231, 235, 238);
+
+  text-decoration: none;
+  text-align: center;
+
+  ul {
+
+    list-style-type: none;
+    margin-bottom: 0px;
+    text-align: center;
+    padding-right: 15px;
+  }
+
+  li {
+    display: inline;
+    padding-right: 20px;
+  }
+
+  li :hover {
+    background-color: rgb(102, 105, 105);
+  }
+
+  a {
+    text-decoration: none;
+    text-align: center;
+    color: rgb(22, 96, 161);
+    font-size: larger;
+    padding-right: 5px;
+
+  }
+
+
+
+}
+
+.navTeams {
+  background-color: rgba(152, 171, 177, 0.212);
+
+  ul {
+    padding-inline-start: 0px;
+    text-align: center;
+    list-style-type: none;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+
+  }
+
+  li {
+
+    display: inline;
+    padding-right: 10px;
+
+
+    img {
+      width: 50px;
+      height: 50px;
+      padding-bottom: 10px;
+      padding-left: 0px;
+      padding-right: 0px;
+
+    }
+  }
+}
+
+
+
+.teamDetails {
+  padding-top: 20px;
+  background-color: rgb(255, 255, 255);
+
+
+
+  text-align: center;
+
+  .teamInfo {
+    display: flexbox;
+    justify-content: center;
+    padding-left: 10px;
+
+    h1 {
+      font-size: medium;
+    }
+
+
+
+  }
+
+  img {
+
+    max-width: 10%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+  }
+
+}
+
+.homePage {
+  height: 100%;
+
+  p {
+    border-style: groove;
+    border-radius: 10px;
+
+
+  }
+}
+
+.gamesContainer {
+
+
+  display: flex;
+
+  .round {
+    flex-basis: 5%;
+    text-align: center;
+    background-color: rgb(251, 255, 254);
+
+  }
+
+  .score {
+
+    padding-top: 10px;
+    flex-basis: 23.333333%;
+    background-color: rgb(122, 133, 133);
+    text-align: center;
+  }
+
+
+  .hTeam {
+
+    padding-top: 10px;
+    flex-basis: 33.333333%;
+    background-color: rgb(197, 206, 203);
+    text-align: center;
+  }
+
+  .aTeam {
+    padding-top: 10px;
+    flex-basis: 33.333333%;
+    background-color: rgb(197, 206, 203);
+    text-align: center;
+  }
+
+}

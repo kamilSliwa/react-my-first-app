@@ -1,0 +1,130 @@
+.header {
+  height: 200px;
+  width: 100%;
+  background-color: #50391a;
+  background-position: bottom;
+  background-size: cover;
+  background-image: url("https://www.gostudy.com.au/wp-content/uploads/2012/11/football-pexels-patrick-case-3781312-1440x960.jpg.webp");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  width: 100%;
+  background-color: #e7ebee;
+  text-decoration: none;
+  text-align: center;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin-bottom: 0px;
+  text-align: center;
+  padding-right: 15px;
+}
+
+.menu li {
+  display: inline;
+  padding-right: 20px;
+}
+
+.menu li :hover {
+  background-color: #666969;
+}
+
+.menu a {
+  text-decoration: none;
+  text-align: center;
+  color: #1660a1;
+  font-size: larger;
+  padding-right: 5px;
+}
+
+.navTeams {
+  background-color: rgba(152, 171, 177, 0.212);
+}
+
+.navTeams ul {
+  padding-inline-start: 0px;
+  text-align: center;
+  list-style-type: none;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.navTeams li {
+  display: inline;
+  padding-right: 10px;
+}
+
+.navTeams li img {
+  width: 50px;
+  height: 50px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.teamDetails {
+  padding-top: 20px;
+  background-color: white;
+  text-align: center;
+}
+
+.teamDetails .teamInfo {
+  display: flexbox;
+  justify-content: center;
+  padding-left: 10px;
+}
+
+.teamDetails .teamInfo h1 {
+  font-size: medium;
+}
+
+.teamDetails img {
+  max-width: 10%;
+  height: auto;
+  background-color: white;
+}
+
+.homePage {
+  height: 100%;
+}
+
+.homePage p {
+  border-style: groove;
+  border-radius: 10px;
+}
+
+.gamesContainer {
+  display: flex;
+}
+
+.gamesContainer .round {
+  flex-basis: 5%;
+  text-align: center;
+  background-color: #fbfffe;
+}
+
+.gamesContainer .score {
+  padding-top: 10px;
+  flex-basis: 23.333333%;
+  background-color: #7a8585;
+  text-align: center;
+}
+
+.gamesContainer .hTeam {
+  padding-top: 10px;
+  flex-basis: 33.333333%;
+  background-color: #c5cecb;
+  text-align: center;
+}
+
+.gamesContainer .aTeam {
+  padding-top: 10px;
+  flex-basis: 33.333333%;
+  background-color: #c5cecb;
+  text-align: center;
+}
